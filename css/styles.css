@@ -1,3 +1,4 @@
+
 * {
   list-style: none;
   text-decoration: none;
@@ -10,7 +11,6 @@
   --nav-text-color: #2e2f42;
   --logo-color: #2e2f42;
   --accent: #4d5ae5;
-  --header-text-color: #fff;
   --primary-background-color: #e5e5e5;
   --team-background-color: #f4f4fd;
   --page-background-color: #2e2f42;
@@ -26,28 +26,22 @@
   --secondary-line-height: 1.2;
   --secondary-font-weight: 500;
   --h1-font-size: 56px;
-  --h1-font-weight: 800;
+  --h1-font-weight: 700;
   --h1-line-height: 1.07;
   --h1-letter-spacing: 0.02em;
   --logo-font-size: 18px;
-  --logo-font-weight: 800;
+  --logo-font-weight: 700;
 }
 
 body {
-  background-color: var(--primary-background-color);
+  background-color: white;
 }
 
 /* HEADER */
 
-.header {
-  background-color: var(--header-background-color);
-  /* width: 1440px;
- height: 72px; */
-}
-
 /* logo */
 
-.logo{
+.logo {
   color: var(--logo-color);
 
   font-family: var(--primary-logo-font-family);
@@ -66,8 +60,7 @@ body {
 
 /* nav */
 
-.nav .nav-link
- {
+.nav .nav-link {
   color: var(--nav-text-color);
 
   font-family: var(--primary-font-family);
@@ -76,7 +69,6 @@ body {
   line-height: var(--primary-line-height);
   letter-spacing: var(--primary-letter-spacing);
 }
-
 
 /* contacts */
 
@@ -95,12 +87,10 @@ body {
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
- color: var(--accent);
+  color: var(--accent);
 }
 /* MAIN */
-ul{
-  margin-left: 0px;
-}
+
 /* page */
 
 .page {
@@ -108,7 +98,7 @@ ul{
 }
 
 .page-title {
-  color: var(--header-text-color);
+  color: white;
   font-family: var(--primary-font-family);
   font-weight: var(--h1-font-weight);
   font-size: var(--h1-font-size);
@@ -119,13 +109,8 @@ ul{
 
 /* button */
 
-.buttons{
-  background-color: #fff;
-}
-
-
 .page-buttons {
-  background-color: #E7E9FC;
+  background-color: #e7e9fc;
   color: var(--accent);
 
   font-family: var(--primary-font-family);
@@ -140,7 +125,6 @@ ul{
   color: rgb(255, 255, 255);
 }
 
-
 .page-button {
   background-color: var(--accent);
   color: rgb(255, 255, 255);
@@ -152,11 +136,8 @@ ul{
 }
 
 .page-button:hover,
-.page-button:focus{
-  background-color: #4D5AE5;
-}
-.page-button:active {
-  background-color: #404BBF;
+.page-button:focus {
+  background-color: #404bbf;
 }
 
 /* advantages */
@@ -182,8 +163,7 @@ ul{
 }
 
 .title,
-.team-title
- {
+.team-title {
   color: var(--title--text-color);
 
   font-family: var(--primary-font-family);
@@ -196,26 +176,16 @@ ul{
 
 /* team*/
 
-.icons{
- display: flex;
-}
-
-
-.team{
+.team {
   background-color: var(--team-background-color);
-  display: flex;
 }
 
-.team-item,
-.item {
+.team-item {
   background-color: #fff;
 }
 
 .team-name,
-.icons-title{
-  color: var(--title--text-color);
-  
-
+.icons-title {
   font-family: var(--primary-font-family);
   font-weight: var(--secondary-font-weight);
   font-size: 20px;
@@ -225,8 +195,8 @@ ul{
 }
 
 .portfolio-name,
-.description{
-   color: var(--primary-text-color);
+.description {
+  color: var(--primary-text-color);
 
   font-family: var(--primary-font-family);
   font-weight: var(--primary-font-weight);
@@ -238,8 +208,8 @@ ul{
 
 /* FOOTER */
 
-.footer{
-  background-color: var( --page-background-color);
+.footer {
+  background-color: var(--page-background-color);
 }
 
 .web-footer {
@@ -260,12 +230,12 @@ ul{
 }
 
 .logo-footer:hover,
-.logo-footer:focus{
+.logo-footer:focus {
   color: var(--accent);
 }
 
-.footer-text{
-  color: #E7E9FC;
+.footer-text {
+  color: #e7e9fc;
 
   font-family: var(--primary-font-family);
   font-weight: var(--primary-font-weight);
