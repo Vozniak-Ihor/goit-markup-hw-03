@@ -143,7 +143,7 @@ ul{
 
 .page-button {
   background-color: var(--accent);
-  color: #fff;
+  color: rgb(255, 255, 255);
 
   font-family: var(--primary-font-family);
   font-weight: var(--secondary-font-weight);
@@ -152,15 +152,14 @@ ul{
 }
 
 .page-button:hover,
-.page-button:focus {
-  background-color: var(--accent);
+.page-button:focus{
+  background-color: #4D5AE5;
+}
+.page-button:active {
+  background-color: #404BBF;
 }
 
 /* advantages */
-
-.icons{
- display: flex;
-}
 
 .advantages-title {
   color: var(--title--text-color);
@@ -197,6 +196,9 @@ ul{
 
 /* team*/
 
+.icons{
+ display: flex;
+}
 
 
 .team{
