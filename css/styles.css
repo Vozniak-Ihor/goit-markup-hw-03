@@ -64,28 +64,10 @@ body {
   color: var(--accent);
 }
 
-.logo:hover,
-.logo:focus,
-.nav-link:hover,
-.nav-link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
-  color: var(--accent);
-}
-
-.logo:hover,
-.logo:focus,
-.nav-link:hover,
-.nav-link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
-  background-color: var(--accent);
-}
 /* nav */
 
-.nav .nav-link,
-.nav-link:hover,
-.nav-link:focus {
+.nav .nav-link
+ {
   color: var(--nav-text-color);
 
   font-family: var(--primary-font-family);
@@ -95,11 +77,10 @@ body {
   letter-spacing: var(--primary-letter-spacing);
 }
 
+
 /* contacts */
 
-.contacts .contacts-link,
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts .contacts-link {
   color: var(--contacts-text-color);
 
   font-family: var(--primary-font-family);
@@ -108,9 +89,18 @@ body {
   line-height: var(--primary-line-height);
   letter-spacing: var(--primary-letter-spacing);
 }
-
+.logo:hover,
+.logo:focus,
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+ color: var(--accent);
+}
 /* MAIN */
-
+ul{
+  margin-left: 0px;
+}
 /* page */
 
 .page {
@@ -129,24 +119,48 @@ body {
 
 /* button */
 
+.buttons{
+  background-color: #fff;
+}
+
+
+.page-buttons {
+  background-color: #E7E9FC;
+  color: var(--accent);
+
+  font-family: var(--primary-font-family);
+  font-weight: var(--secondary-font-weight);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.page-buttons:hover,
+.page-buttons:focus {
+  background-color: var(--accent);
+  color: rgb(255, 255, 255);
+}
+
+
 .page-button {
   background-color: var(--accent);
   color: #fff;
 
   font-family: var(--primary-font-family);
   font-weight: var(--secondary-font-weight);
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
 
 .page-button:hover,
 .page-button:focus {
-  background-color: #404bbf;
+  background-color: var(--accent);
 }
 
 /* advantages */
+
+.icons{
+ display: flex;
+}
 
 .advantages-title {
   color: var(--title--text-color);
@@ -169,7 +183,8 @@ body {
 }
 
 .title,
-.team-title {
+.team-title
+ {
   color: var(--title--text-color);
 
   font-family: var(--primary-font-family);
@@ -182,15 +197,20 @@ body {
 
 /* team*/
 
+
+
 .team{
   background-color: var(--team-background-color);
+  display: flex;
 }
 
-.team-item {
+.team-item,
+.item {
   background-color: #fff;
 }
 
-.team-name{
+.team-name,
+.icons-title{
   color: var(--title--text-color);
   
 
@@ -202,7 +222,8 @@ body {
   text-align: center;
 }
 
-.portfolio-name{
+.portfolio-name,
+.description{
    color: var(--primary-text-color);
 
   font-family: var(--primary-font-family);
