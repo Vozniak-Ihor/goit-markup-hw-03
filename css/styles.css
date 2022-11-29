@@ -242,9 +242,11 @@ ul{
   background-color: var( --page-background-color);
 }
 
-.logo-footer,
-.logo-footer:hover,
-.logo-footer:focus {
+.web-footer {
+  color: var(--accent);
+}
+
+.logo-footer {
   color: #f4f4fd;
 
   font-family: var(--primary-logo-font-family);
@@ -257,7 +259,8 @@ ul{
   text-transform: uppercase;
 }
 
-.web-footer {
+.logo-footer:hover,
+.logo-footer:focus{
   color: var(--accent);
 }
 
