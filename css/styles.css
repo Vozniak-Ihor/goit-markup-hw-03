@@ -1,3 +1,39 @@
+/* ========================GENERAL=============================== */a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
 
 * {
   list-style: none;
@@ -37,30 +73,54 @@ body {
   background-color: white;
 }
 
+.conteiner{
+  width: 1440px;
+  margin: 0 auto;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+/* ========================GENERAL=============================== */
 /* HEADER */
+
+.header-conteiner{
+  display: flex;
+  align-items: center;
+}
 
 /* logo */
 
-.logo {
+.logo-header {
+  margin-right: 77px;
   color: var(--logo-color);
 
   font-family: var(--primary-logo-font-family);
   font-weight: var(--logo-font-weight);
   font-size: var(--logo-font-size);
   line-height: var(--primary-line-height);
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.web {
+.header-web {
   color: var(--accent);
 }
 
 /* nav */
+.nav{
+  
+}
 
-.nav .nav-link {
+.nav-list {
+  display: flex;
+}
+.nav-item:not(:last-child){
+  margin-right: 40px;
+}
+.nav .nav-link {  
+  display: block;
+  padding-bottom: 24px;
+  padding-top: 24px;
   color: var(--nav-text-color);
 
   font-family: var(--primary-font-family);
@@ -71,6 +131,12 @@ body {
 }
 
 /* contacts */
+.contacts{
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
+
+}
 
 .contacts .contacts-link {
   color: var(--contacts-text-color);
@@ -81,6 +147,7 @@ body {
   line-height: var(--primary-line-height);
   letter-spacing: var(--primary-letter-spacing);
 }
+
 .logo:hover,
 .logo:focus,
 .nav-link:hover,
@@ -94,17 +161,23 @@ body {
 /* page */
 
 .page {
+padding-top: 190px;
+padding-bottom: 290px;
+margin-bottom: 120px;
+text-align: center;
   background-color: var(--page-background-color);
+  
 }
 
 .page-title {
+  margin-bottom: 48px;
+
   color: white;
   font-family: var(--primary-font-family);
   font-weight: var(--h1-font-weight);
   font-size: var(--h1-font-size);
   line-height: var(--h1-line-height);
   letter-spacing: var(--h1-letter-spacing);
-  text-align: center;
 }
 
 /* button */
@@ -142,7 +215,13 @@ body {
 
 /* advantages */
 
+.advantages-list{
+  display: flex;
+  gap: 24px;
+}
+
 .advantages-title {
+  margin-bottom: 8px;
   color: var(--title--text-color);
 
   font-family: var(--primary-font-family);
@@ -153,6 +232,7 @@ body {
 }
 
 .advantages-text {
+  margin-bottom: 120px;
   color: var(--primary-text-color);
 
   font-family: var(--primary-font-family);
