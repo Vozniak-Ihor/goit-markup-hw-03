@@ -1,4 +1,5 @@
-/* ========================GENERAL=============================== */a {
+/* ========================GENERAL=============================== */
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -28,11 +29,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.container {
-  width: 1440px;
-  margin: 0 auto;
 }
 
 * {
@@ -73,16 +69,17 @@ body {
   background-color: white;
 }
 
-.conteiner{
-  width: 1440px;
+.conteiner {
+  width: 1158px;
   margin: 0 auto;
   margin-left: 156px;
   margin-right: 156px;
+  /* margin-left: 156px;margin-right: 156px; */
 }
 /* ========================GENERAL=============================== */
 /* HEADER */
 
-.header-conteiner{
+.header-conteiner {
   display: flex;
   align-items: center;
 }
@@ -107,17 +104,16 @@ body {
 }
 
 /* nav */
-.nav{
-  
+.nav {
 }
 
 .nav-list {
   display: flex;
 }
-.nav-item:not(:last-child){
+.nav-item:not(:last-child) {
   margin-right: 40px;
 }
-.nav .nav-link {  
+.nav .nav-link {
   display: block;
   padding-bottom: 24px;
   padding-top: 24px;
@@ -131,11 +127,10 @@ body {
 }
 
 /* contacts */
-.contacts{
+.contacts {
   display: flex;
   gap: 40px;
   margin-left: auto;
-
 }
 
 .contacts .contacts-link {
@@ -161,16 +156,16 @@ body {
 /* page */
 
 .page {
-padding-top: 190px;
-padding-bottom: 290px;
-margin-bottom: 120px;
-text-align: center;
+  padding-top: 190px;
+  padding-bottom: 290px;
+  margin-bottom: 120px;
+  text-align: center; 
   background-color: var(--page-background-color);
-  
 }
 
 .page-title {
   margin-bottom: 48px;
+max-width:510px;
 
   color: white;
   font-family: var(--primary-font-family);
@@ -199,6 +194,8 @@ text-align: center;
 }
 
 .page-button {
+  padding: 16px 32px;
+
   background-color: var(--accent);
   color: rgb(255, 255, 255);
 
@@ -215,7 +212,7 @@ text-align: center;
 
 /* advantages */
 
-.advantages-list{
+.advantages-list {
   display: flex;
   gap: 24px;
 }
@@ -242,8 +239,9 @@ text-align: center;
   letter-spacing: var(--primary-letter-spacing);
 }
 
-.title,
-.team-title {
+.gifts-title {
+  margin-bottom: 72px;
+
   color: var(--title--text-color);
 
   font-family: var(--primary-font-family);
@@ -254,18 +252,58 @@ text-align: center;
   letter-spacing: 0.02em;
 }
 
+.gifts-list {
+  margin-bottom: 120px;
+  display: flex;
+  gap: 24px;
+}
 
 /* team*/
-
 .team {
   background-color: var(--team-background-color);
 }
 
-.team-item {
-  background-color: #fff;
+.team-title {
+  margin-top: 120px;
+  margin-bottom: 72px;
+
+  color: var(--title--text-color);
+
+  font-family: var(--primary-font-family);
+  font-weight: var(--secondary-font-weight);
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
-.team-name,
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  margin-bottom: 120px;
+
+  background-color: #fff;
+  text-align: center;
+}
+
+.team-foto {
+  margin-bottom: 32px;
+}
+
+.team-name {
+  margin-bottom: 8px;
+
+  color: var(--title--text-color);
+  font-family: var(--primary-font-family);
+  font-weight: var(--secondary-font-weight);
+  font-size: 20px;
+  list-style: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .icons-title {
   color: var(--title--text-color);
   font-family: var(--primary-font-family);
@@ -276,7 +314,18 @@ text-align: center;
   text-align: center;
 }
 
-.portfolio-name,
+.portfolio-name {
+  margin-bottom: 32px;
+
+  color: var(--primary-text-color);
+
+  font-family: var(--primary-font-family);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  letter-spacing: var(--primary-letter-spacing);
+}
+
 .description {
   color: var(--primary-text-color);
 
@@ -299,6 +348,8 @@ text-align: center;
 }
 
 .logo-footer {
+  padding-top: 100px;
+  margin-bottom: 16px;
   color: #f4f4fd;
 
   font-family: var(--primary-logo-font-family);
@@ -317,6 +368,9 @@ text-align: center;
 }
 
 .footer-text {
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  max-width: 264px;
   color: #e7e9fc;
 
   font-family: var(--primary-font-family);
