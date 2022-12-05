@@ -11,152 +11,184 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
-      <nav class="nav">
-        <ul>
-          <li><a href="./index.html" class="nav-link">Studio</a></li>
-          <li><a href="./portfolio.html" class="nav-link">Portfolio</a></li>
-          <li><a href="" class="nav-link">Contacts</a></li>
+      <div class="conteiner header-conteiner">
+        <a href="./index.html" class="logo-header"
+          ><span class="header-web">Web</span>Studio</a
+        >
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Studio</a>
+            </li>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contacts-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="contacts-link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="contacts">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contacts-link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+110001111111" class="contacts-link"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section>
-        <div class="buttons">
-          <h2 hidden>buttons</h2>
+        <div class="conteiner">
+          <div class="buttons">
+            <h2 hidden>buttons</h2>
+            <ul>
+              <li><button type="button" class="page-buttons">All</button></li>
+              <li>
+                <button type="button" class="page-buttons">Web Site</button>
+              </li>
+              <li><button type="button" class="page-buttons">App</button></li>
+              <li>
+                <button type="button" class="page-buttons">Design</button>
+              </li>
+              <li>
+                <button type="button" class="page-buttons">Marketing</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="conteiner">
           <ul>
-            <li><button type="button" class="page-buttons">All</button></li>
-            <li>
-              <button type="button" class="page-buttons">Web Site</button>
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/img1.jpg"
+                  alt="interface concept bank"
+                  width="360"
+                  height="300"
+                />
+                <h3 class="icons-title">Banking App Interface Concept</h3>
+                <p class="description">App</p>
+              </a>
             </li>
-            <li><button type="button" class="page-buttons">App</button></li>
-            <li><button type="button" class="page-buttons">Design</button></li>
-            <li>
-              <button type="button" class="page-buttons">Marketing</button>
+
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/img2.jpg"
+                  alt="Screen"
+                  width="360"
+                  height="300"
+                />
+
+                <h3 class="icons-title">Cashless Payment</h3>
+                <p class="description">Marketing</p>
+              </a>
+            </li>
+
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/img3.png"
+                  alt="computer"
+                  width="360"
+                  height="300"
+                />
+                <h3 class="icons-title">Meditaion App</h3>
+                <p class="description">App</p>
+              </a>
+            </li>
+
+            <li class="item">
+              <a href="">
+                <img src="./img/img4.jpg" alt="Taxi" width="360" height="300" />
+                <h3 class="icons-title">Taxi Service</h3>
+                <p class="description">Marketing</p>
+              </a>
+            </li>
+
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/img5.jpg"
+                  alt="Screen phone"
+                  width="360"
+                  height="300"
+                />
+                <h3 class="icons-title">Screen Illustrations</h3>
+                <p class="description">Design</p>
+              </a>
+            </li>
+
+            <li class="item">
+              <a href="">
+                <img src="./img/img6.jpg" alt="" width="360" height="300" />
+                <h3 class="icons-title">Online Courses</h3>
+                <p class="description">Marketing</p>
+              </a>
+            </li>
+
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/img7.jpg"
+                  alt="Instagram Stories"
+                  width="360"
+                  height="300"
+                />
+                <h3 class="icons-title">Instagram Stories Concept</h3>
+                <p class="description">Design</p>
+              </a>
+            </li>
+
+            <li class="item">
+              <a href="">
+                <img src="./img/img8.jpg" alt="Food" width="360" height="300" />
+                <h3 class="icons-title">Organic Food</h3>
+                <p class="description">Web Site</p>
+              </a>
+            </li>
+
+            <li class="item">
+              <a href="">
+                <img
+                  src="./img/img9.jpg"
+                  alt="Coffee"
+                  width="360"
+                  height="300"
+                />
+                <h3 class="icons-title">Fresh Coffee</h3>
+                <p class="description">Web Site</p>
+              </a>
             </li>
           </ul>
         </div>
-
-        <ul>
-          <li class="item">
-            <a href="">
-              <img
-                src="./img/img1.jpg"
-                alt="interface concept bank"
-                width="360"
-                height="300"
-              />
-              <h3 class="icons-title">Banking App Interface Concept</h3>
-              <p class="description">App</p>
-            </a>
-          </li>
-
-          <li class="item">
-            <a href="">
-              <img src="./img/img2.jpg" alt="Screen" width="360" height="300" />
-
-              <h3 class="icons-title">Cashless Payment</h3>
-              <p class="description">Marketing</p>
-            </a>
-          </li>
-
-          <li class="item">
-            <a href="">
-              <img
-                src="./img/img3.png"
-                alt="computer"
-                width="360"
-                height="300"
-              />
-              <h3 class="icons-title">Meditaion App</h3>
-              <p class="description">App</p>
-            </a>
-          </li>
-
-          <li class="item">
-            <a href="">
-              <img src="./img/img4.jpg" alt="Taxi" width="360" height="300" />
-              <h3 class="icons-title">Taxi Service</h3>
-              <p class="description">Marketing</p>
-            </a>
-          </li>
-
-          <li class="item">
-            <a href="">
-              <img
-                src="./img/img5.jpg"
-                alt="Screen phone"
-                width="360"
-                height="300"
-              />
-              <h3 class="icons-title">Screen Illustrations</h3>
-              <p class="description">Design</p>
-            </a>
-          </li>
-
-          <li class="item">
-            <a href="">
-              <img src="./img/img6.jpg" alt="" width="360" height="300" />
-              <h3 class="icons-title">Online Courses</h3>
-              <p class="description">Marketing</p>
-            </a>
-          </li>
-
-          <li class="item">
-            <a href="">
-              <img
-                src="./img/img7.jpg"
-                alt="Instagram Stories"
-                width="360"
-                height="300"
-              />
-              <h3 class="icons-title">Instagram Stories Concept</h3>
-              <p class="description">Design</p>
-            </a>
-          </li>
-
-          <li class="item">
-            <a href="">
-              <img src="./img/img8.jpg" alt="Food" width="360" height="300" />
-              <h3 class="icons-title">Organic Food</h3>
-              <p class="description">Web Site</p>
-            </a>
-          </li>
-
-          <li class="item">
-            <a href="">
-              <img src="./img/img9.jpg" alt="Coffee" width="360" height="300" />
-              <h3 class="icons-title">Fresh Coffee</h3>
-              <p class="description">Web Site</p>
-            </a>
-          </li>
-        </ul>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo-footer"
-        ><span class="web-footer">Web</span>Studio</a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="conteiner">
+        <a href="./index.html" class="logo-footer"
+          ><span class="web-footer">Web</span>Studio</a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
